@@ -27,7 +27,7 @@ console.log(add(1, 3));
 //   }
 // })
 
-// write ur own expect
+// write ur own expect. Expect help to check if the actual value is equal to expected value which is also the major peice in testing a code.
 function expect(actual) {
   return {
     toBe: (expected) => {
